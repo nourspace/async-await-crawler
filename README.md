@@ -7,7 +7,7 @@ Web crawler implementation using Python 3.5+ async/await
 
 ## Usage
 ```
-$ python crawl www.example.com
+$ python crawl.py www.example.com
 ```
 
 ## Options
