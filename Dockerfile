@@ -7,7 +7,7 @@ RUN pip install -r /tmp/requirements.txt
 # Define working directory and copy files to it
 RUN mkdir /code
 WORKDIR /code
-ADD . /code/
+COPY . /code/
 
 ENV PYTHONUNBUFFERED 1
 
